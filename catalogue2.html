@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="catalogue2.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Dosis:wght@300&family=Forum&family=Parisienne&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Upright:wght@300&family=Dosis:wght@300&family=Forum&family=Parisienne&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/446dcee0c9.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<nav>
+			<img id="logo" src="../assets/logo.png" />
+			<ul>
+				<li>    
+					<a href="index2.html" class="a"> Accueil </a>
+				</li>
+				<li>
+					<a href="catalogue2.html" class="a"> catalogue recettes </a> 
+				</li>
+				<li>
+					<a> S'inscrire </a>
+				</li>
+				<li>
+					<a> Contacter nous </a>
+				</li>
+			</ul>
+			<div>
+				<i id="ic" class="fa-brands fa-facebook-f" style="color: whitesmoke"></i>
+				<i id="ic2" class="fa-brands fa-instagram" style="color: whitesmoke"></i>
+				<i id="ic3" class="fa-brands fa-twitter" style="color: whitesmoke"></i>
+			</div>
+		</nav>
+		<div class="search_box" style="display: grid;
+		grid-template-columns: repeat(1, 2fr);
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		width: 70%;">
+			<img id="chef" src="../assets/chef2pic.png" width="390px" height="380px" style="margin: auto;" />
+			<div class="seach_box_img">
+				<input
+					id="input1"
+					placeholder=" Cherchez votre recette.."
+					type="search"
+					typeholder="Cherche ta recette"
+				/>
+				<i id="search" class="fa-solid fa-magnifying-glass"></i>
+			</div>
+		</div>
+		<h1 style="font-family: 'Parisienne'; font-size: 53px; text-align: center">
+			Catalogues Délices
+		</h1>
+
+		<div id="recette-container"></div>
+		
+
+		<img id="fruit" src="../assets/fruit.png" width="640px" height="420px" />
+
+		<img id="hehe" src="../assets/hehe.jpg" width="400px" height="600px" />
+		<footer>
+			<div class="footer-container">
+				<div class="footer-section">
+					<h2>Nous contacter</h2>
+					<p>Adresse : 123 rue Hydra Alger</p>
+					<p>Téléphone : 0542644389</p>
+					<p>Email : mariacuisine@gmail.com</p>
+				</div>
+				<div class="footer-section">
+					<div class="footer-section"></div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="bottom-bar">
+			<p>&copy; 2023 Tous droits réservés.</p>
+		</div>
+		<script src="recettesDB.js"></script>
+		<script src="catalogue2.js"></script>
+		<script src="index2.js"></script>
+	</body>
+</html>

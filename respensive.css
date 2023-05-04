@@ -1,0 +1,198 @@
+
+    @media only screen and (max-width: 600px) {
+       
+       
+       
+       
+        /* Logo */
+        #logo {
+        width: 150px;
+        bottom: 50px;
+        }
+        
+        /* Icone */
+        #icon2 { 
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+        
+        /* Navigation */
+        nav {
+            position: relative;
+            right:99%;
+            top:170px;
+        
+
+        }
+        
+
+        div i{ 
+            position: relative;
+            right:99%;
+            top:170px; 
+            flex-direction: column;
+            margin: 2px 0;
+        }
+
+    
+        
+        nav ul {
+            flex-direction: column;
+            position: relative;
+           
+            }
+            
+        nav li {
+
+        margin: 2px 0; 
+        
+        
+        }
+        
+        nav a {
+        position: relative;
+       
+        font-size: 14px;
+      
+        }
+        
+        /* Fond */
+        .fond { position:relative; 
+        opacity: 70%;
+        width: 100%;
+        height: auto;
+        bottom: 60px;
+        }
+        
+        /* Barre de recherche */
+        #inputtext {
+     top: 70%;
+        font-size: 30px;
+        }
+        
+        #input1 {
+        top: 82%;
+        width: 60%;
+        height: 35px;
+        }
+        
+        #search {
+        top: 79.5%;
+        left: 70%;
+        }
+ 
+    
+    
+    
+
+/*2 */ 
+
+
+
+#pic1, #pic2, #pic3 {
+    zoom:0.4;
+  }
+  
+  #h11 {
+    font-size: 26px; position:relative;
+  top: 24px; text-align: center;
+  }
+  
+  #h12 {
+    font-size: 15px;
+    bottom: unset;
+    left: unset;
+  }
+  
+  #desc { position:relative;  
+    font-size: 20px;
+    bottom:20rem;
+    top:13px;
+    text-align: center;
+    left:0;
+  }
+
+  #paragraphedescription{ 
+    font-size: 15px; 
+    position:relative;  
+    top:1rem;
+    left:0;
+    
+  }
+  
+  button{ 
+    position:relative;   
+    top:100px;
+  }
+
+  #sand{ 
+    width:400px;
+    height:300px;
+    position:relative; 
+    top:0; 
+    top:70px;
+    left:0;
+    left:60px;
+  }
+
+  #apropos{ 
+    left:0; 
+    font-size: 20px;
+    position:relative; 
+    bottom:200px;
+    
+  }
+  #aproposparagraphe {
+    bottom:auto;
+    font-size: 13px;
+    position:relative; 
+    left:0;
+  }
+  
+  #chefimage {
+    width: 55%;
+    height:75%;
+    height: auto;
+    margin: 0 auto;
+    position:relative; 
+    bottom:230px;
+  }
+
+    
+
+#donutes{ 
+position:relative; 
+top:0;
+
+margin-top:0;
+bottom:2rem;
+margin:70px;
+    width: 75%;
+    height:75%;
+}
+
+#titrecat{ 
+    top:0; 
+    left:0; 
+    font-size: 24px;
+    text-align: center;
+}
+.grid,.grid2{ 
+    top:0;
+    display:block;
+}
+
+
+.catg2,.catg { 
+    top:0; 
+    left:0; 
+    font-size:19 px;
+ display:block;
+}
+
+
+
+    } 
+
+
